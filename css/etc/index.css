@@ -1,0 +1,59 @@
+/*INDEX CSS*/
+
+body {
+/*    background-image:url('https://i.imgur.com/gW75vVH.png'); */
+background-image:url('https://imnotaacrook.github.io/media/backgr/bg3.png');
+    animation:30s scroll linear infinite;
+    color:white;
+}
+@keyframes scroll {
+    
+    0% {background-position:0% 0%}
+    100% {background-position:100% 100%}
+}
+.container {
+    width:840px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.body {
+}
+.flex {
+    display:flex;
+}
+.nav {
+    width:170px;
+    border:3px outset #ababab;;
+    background-color: #cfcfcf;
+    background-image: url('https://imnotaacrook.github.io/media/backgr/bg4.png');
+}
+.navcontent {
+    border:1px solid white;
+    margin:3px;
+    font-family:"comic sans ms";
+    color:black;
+    font-size:15px;
+    padding:6px;
+    /*width:167px;*/
+}
+.navcontent ul {
+    font-family:none;
+    margin-left:4px;
+    margin-top:7px;
+    list-style-image:url('https://imnotaacrook.github.io/media/bullets/arrow.png');
+    font-size:12px;
+
+}
+.navcontent ul li ul {
+    margin-left:8px;
+    list-style-image:url('https://imnotaacrook.github.io/media/bullets/arrownested.png');
+}
+.navcontent a:hover {
+    color:blue;
+    font-style:italic;
+    border:1px dashed lightgrey;
+}
+.navheader {
+    height:140px;
+    /*roughly 140x170*/;
+}
