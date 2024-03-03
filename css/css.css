@@ -1,10 +1,17 @@
-/*UNIVERSIAL CSS*/
 * {
     cursor:url(https://imnotaacrook.github.io/media/cur/1.cur), auto;
     image-rendering:pixelated;
     image-rendering:crisp-edges;
     font-smooth:none;
     font-size:12px;
+    font-family:"w98";
+}
+::selection {
+    background:yellow;
+    color:black;
+}
+body {
+    text-indent:15px;
 }
 a {
     color:darkblue;
@@ -24,6 +31,7 @@ ul {
     list-style-position: inside;
     margin:0;
     padding:0;
+    text-indent:0px;
 }
 audio {
     filter:invert();
@@ -34,4 +42,20 @@ audio::-webkit-media-controls-play-button,audio::-webkit-media-controls-mute-but
 }
 a:hover {
     cursor:url(https://imnotaacrook.github.io/media/cur/1click.cur), auto;
+}
+p {
+    font-size:12px;
+}
+h1 {
+    font-size:18px;
+}
+h2 {
+    font-size:16px;
+}
+h3 {
+    font-size:14px;
+}
+@font-face {
+    font-family:"w98";
+    src:url("https://leopard.hosting.pecon.us/dl/iuztl/W95FA.otf");
 }
