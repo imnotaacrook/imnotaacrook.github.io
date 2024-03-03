@@ -145,3 +145,7 @@ marquee:hover {
     height:300px;
     margin-top:3px;
 }
+.updates i {
+    background-color:yellow;
+    color:black;
+}
