@@ -1,0 +1,129 @@
+body {
+    background:url('https://imnotaacrook.github.io/media/backgr/bg4.png');
+    animation:40s scroll infinite linear
+}
+* {
+    cursor:help;
+    color:#d3c1e4;
+}
+@keyframes scroll {
+    0% {
+        background-position:0% 0%;
+    }
+    100% {
+        background-position:100% -100%;
+    }
+}
+@keyframes scroll2 {
+    0% {
+        background-position:0% 0%;
+    }
+    100% {
+        background-position:100% 100%;
+    }
+}
+.container {
+    background-color:#130d22;
+    color:gold;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:2px;
+}
+.header {
+    height:200px;
+    border:2px solid #ffbb00;
+background-image: linear-gradient(45deg, #7c30ff 25%, #ffbb00 25%, #ffbb00 50%, #7c30ff 50%, #7c30ff 75%, #ffbb00 75%, #ffbb00 100%);
+background-size: 56.57px 56.57px;
+animation:40s scroll2 infinite linear;
+color:#201047;
+font-size:24px
+}
+.header:hover {
+    border:2px solid gold;
+}
+button {
+    background-color: #ffbb00;
+    width:148px;
+    height:30px;
+    border:none;
+    margin-top:4px;
+}
+button a {
+    color:#201047;
+}
+button a:hover {
+    border:none
+}
+button a:active {
+    border:none;
+    background:none
+}
+.section {
+    text-align:center;
+}
+.section span {
+    color:gold;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+    background-color: #ffbb00;
+    color:#201047;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+i {
+    color:#2a00b3;
+}
+::selection {
+    background:none;
+    color:gold
+}
+.section span::selection {
+    background:none;
+    color:#d3c1e4;
+}
+.tooliptext::selection {
+    background-color:#130d22;
+    color:blue;
+}
+marquee {
+    color:gold;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+marquee:hover {
+    color:white
+}
+.buttons {
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    justify-content: center;
+    display:flex;
+    flex-flow: row wrap;
+}
+.buttons div {
+    margin-bottom:4px;
+    
+}
+.resources a {
+    color:gold;
+}
