@@ -1,3 +1,4 @@
+/*UNIVERSIAL CSS*/
 * {
     cursor:url(https://imnotaacrook.github.io/media/cur/1.cur), auto;
     image-rendering:pixelated;
@@ -11,7 +12,6 @@
     color:black;
 }
 body {
-    text-indent:15px;
 }
 a {
     color:darkblue;
@@ -45,6 +45,7 @@ a:hover {
 }
 p {
     font-size:12px;
+    text-indent:15px;
 }
 h1 {
     font-size:18px;
@@ -58,4 +59,8 @@ h3 {
 @font-face {
     font-family:"w98";
     src:url("https://leopard.hosting.pecon.us/dl/iuztl/W95FA.otf");
+}
+@font-face {
+    font-family:"berylium";
+    src:url("https://leopard.hosting.pecon.us/dl/yemcu");
 }
