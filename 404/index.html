@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title> 404.html</title>
+    </head>
+<body>
+    <div id="frame" ></iframe>
+    <script>
+function getRandomUrl(urls) {
+    var minIndex = 0;
+    var maxIndex = urls.length - 1;
+    var randomIndex = Math.floor(Math.random() * (maxIndex - minIndex)) + minIndex;
+    return urls[randomIndex];
+}
+
+var urls = [
+"https://imnotaacrook.github.io/404/00.html",
+"https://imnotaacrook.github.io/404/00.html",
+"https://imnotaacrook.github.io/404/00.html"];
+
+var randomSelectedUrl = getRandomUrl(urls);
+
+$("#frame").html(
+"<iframe class='random-iframe' src='" + randomSelectedUrl + "' style='width:105%;height:100%;position:absolute;top:-2px;left:-2px' frameborder='0' scrolling='yes' seamless='seamless'></iframe>");
+
+    </script>
+</body>
