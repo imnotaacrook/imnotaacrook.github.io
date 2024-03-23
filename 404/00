@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title> ..? // 404.html</title>
+        <style>
+            * {
+                font-smooth:none;
+                font-size:12px;
+                font-family:"w98";
+                image-rendering:pixelated;
+                image-rendering:crisp-edges;
+                cursor:help;
+            }
+            ::selection {
+                background:white;
+                color:black;
+            }
+        </style>
+    </head>
+<body>
+    <a href="/index.html">
+<img style="position:absolute;bottom:-50px;left:0px" src="http://imnotaacrook.github.io/media/404/star0.gif" 
+onmouseover="this.src='http://imnotaacrook.github.io/media/404/star.gif'"
+onmouseout="this.src='http://imnotaacrook.github.io/media/404/star0.gif'"
+border="0" alt=""/></a>
+<audio autoplay src="http://imnotaacrook.github.io/audio/other/deftonesteenager.mp3">
+</audio>
+</body>
